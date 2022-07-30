@@ -61,7 +61,7 @@ To install this application:
 ```
 npm start
 ```
-- While the server is running, open Insomnia, create a new request of any type (GET, POST, PUT, DELETE) and set the address to 'http://localhost:3001/api' with either /categories, /products, or /tags as the endpoint.
+- While the server is running, open Insomnia, create a new request of any type (GET, POST, PUT, DELETE) and set the address to http://localhost:3001/api with either /categories, /products, or /tags as the endpoint.
 - Use the different requests to implement Create, Read, Update, and Delete (CRUD) operations to the database.
 - See the link for the walkthrough of the application:
 
