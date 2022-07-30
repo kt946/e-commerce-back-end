@@ -32,7 +32,13 @@ To install this application:
   - mysql2
   - sequelize
   - dotenv
-- Once the dependencies are installed, type the following command into the terminal. When prompted, input the password for the MySQL Shell to connect to the database.
+- Create an .env file in the root directory and input the following into the file while using your own username and password:
+```
+    DB_NAME='ecommerce_db'
+    DB_USER='your_username'
+    DB_PW='your_password'
+```
+- Type the following command into the terminal. When prompted, input the password for the MySQL Shell to connect to the database.
 ```
     mysql -u root -p 
 ```
@@ -57,7 +63,9 @@ npm start
 ```
 - While the server is running, open Insomnia, create a new request of any type (GET, POST, PUT, DELETE) and set the address to http://localhost:3001/api/users.
 - Use the different requests to implement Create, Read, Update, and Delete (CRUD) operations to the database.
-- See the links for walkthroughs of the application:
+- See the link for the walkthrough of the application:
+
+    [Link to walkthrough video: E-commerce Back End](https://watch.screencastify.com/v/NkoELdgsoMD2tdhjJw38)
 
 ## Credits
 
